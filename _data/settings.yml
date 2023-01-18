@@ -11,6 +11,7 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'Multi-Agent Control',   url: 'multi-agent-control'}
 
 
 #-------------------------------
