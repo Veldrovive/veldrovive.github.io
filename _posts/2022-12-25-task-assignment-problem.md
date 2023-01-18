@@ -16,8 +16,8 @@ We must also acknowledge that for this system to be useful, it needs some furthe
 We will tackle these as we go along, but first, the initial problem...
 
 ## The Solution
-Since we assume there is some travel time between tasks, we can see this is a variation of the traveling salesman problem. Specifically, it is the multi traveling salesman problem. Or if we want to get very specific it is also called the task assignment problem. Fortunately, there is a lot of literature on this topic, unfortunately, most of it is not very accessible. A paper summarizing most key findings is here (Sorry for the paywall): [A comprehensive survey on the Multiple Traveling Salesman Problem: Applications, approaches and taxonomy](https://www.sciencedirect.com/science/article/pii/S1574013721000095).
+Since we assume there is some travel time between tasks, we can see this is a variation of the traveling salesman problem. Specifically, it is the multi traveling salesman problem. Or if we want to get very specific it is also called the task assignment problem. Fortunately, there is a lot of literature on this topic, unfortunately, most of it is not very accessible. A paper summarizing most key findings is here (Sorry for the paywall): <a href="https://www.sciencedirect.com/science/article/pii/S1574013721000095" target="_blank">A comprehensive survey on the Multiple Traveling Salesman Problem: Applications, approaches and taxonomy</a>.
 
-{% include image.html url="https://www.sciencedirect.com/science/article/pii/S1574013721000095" image="posts/task-assignment-problem/mts-taxonomy.jpg" %}
+{% include image.html text="MTSP Approaches" image="posts/task-assignment-problem/mts-taxonomy.jpg" %}
 
 *To be continued...*

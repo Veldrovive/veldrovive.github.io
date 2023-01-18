@@ -11,7 +11,9 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Multi-Agent Control',   url: 'multi-agent-control'}
+- {name: 'Multi-Agent Control',   url: 'multi-agent-control', short_description: 'Solving the task assignment problem for robust high abstraction goal completion'}
+- {name: 'Truss Solver',   url: 'truss-solver' }
+- {name: 'UToronto Downloader',   url: 'utoronto-downloader', short_description: 'Popular WebExtension to allow students to download their lectures' }
 
 
 #-------------------------------

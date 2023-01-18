@@ -5,6 +5,10 @@
         <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
           <div class="project-overlay">
             <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+            <!-- If project.short_description exists, put it below in a jekyll if -->
+            {% if project.short_description %}
+              <p>{{ project.short_description }}</p>
+            {% endif %}
           </div>
         </div>
       </a>
