@@ -11,17 +11,21 @@ layout: default
           {% assign code_url_icon = page.code_url_icon | default: 'github' %}
           {% assign code_url_text_default = page.code_url | split: '/' | last | prepend: '/' %}
           {% assign code_url_text = page.code_url_text | default: code_url_text_default %}
-          <a href="{{ page.code_url }}" target="_blank">
-            <i class="fa fa-{{ code_url_icon }}" aria-hidden="true"></i> {{ code_url_text }}
-          </a>
+          {% include link.html 
+            url=page.code_url 
+            icon=code_url_icon 
+            text=code_url_text 
+          %}
         {% endif %}
 
         {% if page.demo_url %}
           {% assign demo_url_icon = page.demo_url_icon | default: 'external-link' %}
           {% assign demo_url_text = page.demo_url_text | default: 'Demo' %}
-          <a href="{{ page.demo_url }}" target="_blank">
-            <i class="fa fa-{{ demo_url_icon }}" aria-hidden="true"></i> {{ demo_url_text }}
-          </a>
+          {% include link.html 
+            url=page.demo_url 
+            icon=demo_url_icon 
+            text=demo_url_text 
+          %}
         {% endif %}
       </div>
     </div>

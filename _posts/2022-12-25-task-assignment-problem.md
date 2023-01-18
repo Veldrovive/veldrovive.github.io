@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Task Assignment Problem"
+
+demo_url: '/projects/multi-agent-control'
+demo_url_text: 'Main Project'
 ---
 
 In my quest to build a [system that can coordinate multiple robots](/projects/multi-agent-control) to execute complex tasks, one of the most important building blocks is the task assignment algorithm.

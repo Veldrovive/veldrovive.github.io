@@ -11,7 +11,9 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'DALLE2',   url: 'dalle2-pytorch', short_description: 'Training the next generation of visual generative models'}
 - {name: 'Multi-Agent Control',   url: 'multi-agent-control', short_description: 'Solving the task assignment problem for robust high abstraction goal completion'}
+- {name: 'Mind Reading', url: 'mind-reading', short_description: 'Recreating images from MRI scans'}
 - {name: 'Truss Solver',   url: 'truss-solver' }
 - {name: 'UToronto Downloader',   url: 'utoronto-downloader', short_description: 'Popular WebExtension to allow students to download their lectures' }
 
