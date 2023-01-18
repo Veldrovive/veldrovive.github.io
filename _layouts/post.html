@@ -4,7 +4,14 @@ layout: default
 
 <section>
   <div class="post-container">
-    <h4 class="project-title">{{ page.title }}</h4>
+    <div class="post-header">
+      <h4 class="project-title">{{ page.title }}</h4>
+      {% if page.link_url %}
+        <a href="{{ page.link_url }}" target="_blank">
+          <i class="fa fa-{{ page.url_icon }}" aria-hidden="true"></i> {{ page.url_text }}
+        </a>
+      {% endif %}
+    </div>
     <div class="project-load">{{ content }}</div>
   </div>
   {% if site.data.settings.disqus.comments %}
