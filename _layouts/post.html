@@ -6,12 +6,26 @@ layout: default
   <div class="post-container">
     <div class="post-header">
       <h4 class="project-title">{{ page.title }}</h4>
-      {% if page.link_url %}
-        <a href="{{ page.link_url }}" target="_blank">
-          <i class="fa fa-{{ page.url_icon }}" aria-hidden="true"></i> {{ page.url_text }}
-        </a>
-      {% endif %}
+      <div class="links">
+        {% if page.code_url %}
+          {% assign code_url_icon = page.code_url_icon | default: 'github' %}
+          {% assign code_url_text_default = page.code_url | split: '/' | last | prepend: '/' %}
+          {% assign code_url_text = page.code_url_text | default: code_url_text_default %}
+          <a href="{{ page.code_url }}" target="_blank">
+            <i class="fa fa-{{ code_url_icon }}" aria-hidden="true"></i> {{ code_url_text }}
+          </a>
+        {% endif %}
+
+        {% if page.demo_url %}
+          {% assign demo_url_icon = page.demo_url_icon | default: 'external-link' %}
+          {% assign demo_url_text = page.demo_url_text | default: 'Demo' %}
+          <a href="{{ page.demo_url }}" target="_blank">
+            <i class="fa fa-{{ demo_url_icon }}" aria-hidden="true"></i> {{ demo_url_text }}
+          </a>
+        {% endif %}
+      </div>
     </div>
+
     <div class="project-load">{{ content }}</div>
   </div>
   {% if site.data.settings.disqus.comments %}
