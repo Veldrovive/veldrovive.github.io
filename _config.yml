@@ -8,5 +8,6 @@ plugins:   [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "Aidan Dempster"
-description: "Aidan Dempster - Personal Portfolio"
+description: "Personal portfolio and project demonstration"
 author:      "Aidan Dempster"
+url:         "aidandevelops.com"
