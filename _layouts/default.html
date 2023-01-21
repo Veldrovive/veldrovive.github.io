@@ -31,6 +31,12 @@
     {% seo %}
   </head>
   <body>
+    {% if site.data.settings.google-tag-manager %}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.settings.google-tag-manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
     <div class="site-container">
       {% include header.html %}
       {{ content }}

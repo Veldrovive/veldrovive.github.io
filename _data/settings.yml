@@ -48,7 +48,9 @@ seo:
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 # google-analytics-ua: ''
-google-analytics-tag: 'G-7KD685VS65'
+# google-analytics-tag: 'G-7KD685VS65'
+google-tag-manager: 'GTM-WTTBMRV'
+
 #-------------------------------
 # Disqus Section
 
