@@ -10,4 +10,4 @@ plugins:   [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 title:		   "Aidan Dempster"
 description: "Personal portfolio and project demonstration"
 author:      "Aidan Dempster"
-url:         "aidandevelops.com"
+url:         "https://aidandevelops.com"
