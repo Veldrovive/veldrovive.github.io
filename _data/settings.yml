@@ -12,6 +12,7 @@ menu:
 
 projects:
 - {name: 'DALLE2',   url: 'dalle2-pytorch', short_description: 'Training the next generation of visual generative models'}
+- {name: 'Semantic Search with Pre-Trained Encoders', url: 'semantic-search-pretrained', short_description: 'Cheap semantic search training by leveraging pre-trained text encoders'}
 - {name: 'Mind Reading', url: 'mind-reading', short_description: 'Recreating images from MRI scans'}
 - {name: 'Multi-Agent Control',   url: 'multi-agent-control', short_description: 'Solving the task assignment problem for robust high abstraction goal completion'}
 - {name: 'Truss Solver',   url: 'truss-solver' }
